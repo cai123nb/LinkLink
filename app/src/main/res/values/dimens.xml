@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="menu_margin">20dp</dimen>
+    <dimen name="menu_big_margin">180dp</dimen>
+    <dimen name="add_width">40dp</dimen>
+    <dimen name="add_height">40dp</dimen>
+    <dimen name="title_font_size">20dp</dimen>
+    <dimen name="font_size">15dp</dimen>
+    <dimen name="input_length">200dp</dimen>
+    <dimen name="grid_margin">15dp</dimen>
+</resources>

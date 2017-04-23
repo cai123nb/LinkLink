@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/register_title"
+            android:textSize="@dimen/title_font_size"
+            android:layout_marginBottom="@dimen/menu_margin"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register_specification"
+            android:layout_gravity="center_vertical"
+            />
+        <CheckBox
+            android:id="@+id/agree_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_nofity"
+            />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/username"
+                />
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="@dimen/input_length"
+                android:layout_columnSpan="2"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                />
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="@dimen/input_length"
+                android:inputType="textEmailAddress"
+                android:layout_columnSpan="2"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_gravity="center"
+            >
+            <TextView />
+            <Button
+                android:id="@+id/Send"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/send"
+                android:textSize="@dimen/font_size"
+                android:layout_columnSpan="2"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activatedCode"
+                />
+            <EditText
+                android:id="@+id/activatedCode"
+                android:layout_width="30dp"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView />
+            <Button
+                android:id="@+id/register"
+                android:text="@string/register"
+                />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

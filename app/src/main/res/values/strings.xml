@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">LinkLink</string>
+    <string name="shop">商店</string>
+    <string name="bag">背包</string>
+    <string name="setting">设置</string>
+    <string name="gold">金币:</string>
+    <string name="diamond">钻石:</string>
+    <string name="exit">退出</string>
+    <string name="return_home">返回</string>
+    <string name="add">+</string>
+    <string name="first_hurdle">第一关</string>
+    <string name="second_hurdle">第二关</string>
+    <string name="thirld_hurdle">第三关</string>
+    <string name="fourth_hurdle">第四关</string>
+    <string name="fifth_hurdle">第五关</string>
+    <string name="sixth_hurdle">第六关</string>
+    <string name="author">鸣谢</string>
+    <string name="timeTip">剩余时间:</string>
+    <string name="stepTip">剩余步数:</string>
+    <string name="timesTip">消灭</string>
+    <string name="pause">暂停</string>
+    <string name="time_tool">加时卡</string>
+    <string name="help_tool">提示卡</string>
+    <string name="reset_tool">重置卡</string>
+    <string name="boom_tool">爆炸卡</string>
+    <string name="register_title">注册须知</string>
+    <string name="username">用户名: </string>
+    <string name="email">邮箱: </string>
+    <string name="send">发送激活码</string>
+    <string name="activatedCode">激活码</string>
+    <string name="register">注册</string>
+    <string name="faceback">反馈</string>
+    <string name="resetUser">重置</string>
+    <string name="buy">购买</string>
+    <string name="feedbackTip">如果有什么Bug,建议和观点\n都可以发给我,我们会尽全力为你解决!</string>
+    <string name="register_nofity">我同意以上观点</string>
+    <string name="register_specification">1.LinkLink软件为单机休闲娱乐软件.\n
+                                          2.LinkLink软件中进行注册和反馈时需要联网进行.\n
+                                          3.LinkLink软件由蔡剑勇小组带领完成,如需了解详情,请联系2686600303@qq.com.\n</string>
+</resources>

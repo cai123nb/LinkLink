@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dip"
+    android:rowCount="2"
+    android:columnCount="3"
+
+    >
+    <link.cjyong.com.linklink.view.BackpackNode
+        android:id ="@+id/boom"
+        android:src="@drawable/backpackbomb"
+        android:padding="10dip"
+        />
+    <link.cjyong.com.linklink.view.BackpackNode
+        android:id ="@+id/time"
+        android:src="@drawable/backpacktime"
+        android:padding="10dip"
+        />
+    <link.cjyong.com.linklink.view.BackpackNode
+        android:id ="@+id/reset"
+        android:src="@drawable/backpackreset"
+        android:padding="10dip"
+        />
+    <link.cjyong.com.linklink.view.BackpackNode
+        android:id ="@+id/help"
+        android:src="@drawable/backpackhelp"
+        android:padding="10dip"
+        />
+    <link.cjyong.com.linklink.view.BackpackNode
+        android:src="@drawable/backpackbaground"
+        android:padding="10dip"
+        />
+    <link.cjyong.com.linklink.view.BackpackNode
+        android:src="@drawable/backpackbaground"
+        android:padding="10dip"
+        />
+</GridLayout>

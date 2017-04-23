@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="link.cjyong.com.linklink">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".util.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity
+            android:name=".Activity.startActivity.StartAnimationActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.mainActivity.MainActivity"
+            android:label="@string/app_name"
+            />
+        <activity
+            android:name=".Activity.firstHurdleActivity.FirstHurdleActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".Activity.firstHurdleActivity.GameActivity1"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".Activity.secondHurdleActivity.SecondHurdleActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".Activity.secondHurdleActivity.GameActivity2"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".Activity.registerActivity.RegisterActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Activity.thirdHurdleActivity.ThirdHurdleActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Activity.thirdHurdleActivity.GameActivity31"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Activity.thirdHurdleActivity.GameActivity32"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Activity.thirdHurdleActivity.GameActivity33"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Activity.shopActivity.ShopActivity"
+            android:label="@string/app_name">
+        </activity>
+        <service android:name=".service.BackgroundMusicService" />
+    </application>
+
+</manifest>
